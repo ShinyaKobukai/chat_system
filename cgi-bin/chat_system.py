@@ -16,10 +16,10 @@ else:
 
 if f:
      #if "name" not in form or "id" not in form:
-     #     form_check = 1 #　form_check は　１だお
+     #     form_check = 1 #　form_check は　１
 
      #データベース 接続
-     conn = psycopg2.connect("dbname=chat user=postgres password=0415")
+     conn = psycopg2.connect("dbname=chat user=postgres password=")
      print(conn.get_backend_pid())
 
      #カーソル取得
