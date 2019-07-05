@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="refresh" content="2; URL=">
+	<title>メッセージ画面</title>
+</head>
+<body>
+<p>
+	田中:こんにちは<br />
+	小林:こんにちは
+</p>
+<form>
+	<a href="login.htm">ログイン画面へ</a><br />
+	<input type="button" value="名前変更" onclick="window.location='change.htm'" /><br />
+	<input type="button" value="メッセージ削除" onclick="javascript:window.history.back(-1);return false;" /><br />
+	<input type="text" id="message" value="（メッセージを入力してください）" />
+	<input type="submit" value="送信" />
+</form>
+</body>
+</html>
